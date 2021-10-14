@@ -19,6 +19,7 @@ header {
     background-color: bisque;
     text-align: center;
     width: 100%;
+    font-size: 1.125em; /*Default size for em - 16px*/
 }
 .logo {
     float: left;
@@ -47,6 +48,7 @@ section {
     margin: 10px auto;
     padding: 10px;
     text-align: center;
+    font-size: 1em;
 }
 
 .desc {
@@ -94,4 +96,11 @@ footer {
     font-weight: 300;
     background-color: bisque;
     padding-left: 10px;
+    font-size: 0.875em;
+}
+
+@media only screen and (max-width: 550px) {
+    .contact-details {
+        width: 350px;
+    }
 }
