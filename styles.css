@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+a {
+    font-weight: 300;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    background-color: bisque;
+    text-align: center;
+    width: 100%;
+}
+.logo {
+    float: left;
+    padding: 5px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    float: right;
+    padding: 5px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    padding: 5px 10px;
+}
+
+
+main {
+    margin-top: 70px;
+    width: 100%;
+}
+section {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.desc {
+    background-image: url("./images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.desc p {
+    text-align: center;
+    background-color: white;
+}
+
+.event-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+figure {
+    padding: 10px;
+}
+
+.contact-details {
+    width: 500px;
+    background-color: beige;
+    margin: auto;
+}
+.formrow {
+    width: 100%;
+}
+.contactDiv {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: beige;
+    margin: auto;
+}
+footer {
+    font-weight: 300;
+    background-color: bisque;
+    padding-left: 10px;
+}

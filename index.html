@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Star Troops Book Club</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="Logo" width="50px" height="50px">
+            </div>
+            <nav>
+                <span><a href="#about">About Us</a></span>
+                <span><a href="#events">Events</a></span>
+                <span><a href="#join">How to join</a></span>
+                <span><a href="#contact">Contact Us</a></span>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h1>Star Troops Book Club</h1>
+                <div class="desc">
+                    <p>BookClub is a one-stop shop for people who love learning about books. In book clubs hosted by authors and notable
+                    moderators, discover new books, participate in live audio book discussions, and actively engage with other readers and the authors themselves.</p>
+                </div>
+            </section>
+            <section id="events">
+                <h1>Events</h1>
+                <div class="event-desc">
+                    <figure>
+                        <img src="./images/bookshelf.jpg" alt="Bookshelf" width="300px" height="200px">
+                        <figcaption>Pick a book of your choice</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/study.jpg" alt="Read Book" width="300px" height="200px">
+                        <figcaption>Read any book in a peaceful spot as long as you want</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/collaborate.jpg" alt="Collaborate" width="300px" height="200px">
+                        <figcaption>Start a discussion with other members with similar interests</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/books.jpg" alt="Exchange Books" width="300px" height="200px">
+                        <figcaption>Donate your old books for the club which will be useful for other members</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="join">
+                <h1>How to join?</h1>
+                <p>Fill the below details and we will contact you!</p>
+                <div class="contact-details">
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        <form id="contactForm" name="contactForm">
+                            <div class="formrow">
+                                <label for="uname">Name:</label>
+                                <input type="text" id="uname" name="uname">
+                            </div>
+                            <div class="formrow">
+                                <label for="age">Age:</label>
+                                <input type="number" id="age" name="age" maxlength="2">
+                            </div>
+                            <div class="formrow">
+                                <label for="num">Phone Number:</label>
+                                <span id="cc">+91</span><input type="number" id="num" name="num" maxlength="10">
+                            </div>
+                            <div class="formrow">
+                                <label for="callback">Callback Time Preference:</label>
+                                <input type="datetime-local" id="callback" name="callback">
+                            </div>
+                            <button type="submit" form="contactForm" formtarget="_self">Submit</button>
+                        </form>
+                    </fieldset>
+                </div>
+            </section>
+            <section id="contact">
+                <h1>Have any queries? Contact Us!</h1>
+                <div class="contactDiv">
+                    <h3>Cody Book Club</h3>
+                    <strong>12 Rue Street, Mumbai, India</strong><br>
+                    <em>Phone No: +91 38302039233</em>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2021</p>
+        </footer>
+    </body>
+</html>
